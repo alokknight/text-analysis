@@ -2,7 +2,7 @@
 import "./App.css";
 import "./indexwhisky.css";
 import Home from "./components/Home"
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import About from "./components/About";
 // import Indexwhisky from "./components/Indexwhisky";
 // import Footer from "./components/Footer";
