@@ -3,6 +3,25 @@ import PropTypes from 'prop-types'
 
 
 export default function Navbar(props) {
+    // const [loginBtn, setLoginbtn] = useState({
+    //     link:"/signIn"
+    // })
+    // const [btntext, loginBtnTxt] = useState("signIn")
+
+    // const toggleStyle = () => {
+    //     if (loginBtn.link === "/signIn") {
+    //         setLoginbtn({
+    //             link:"/signOut"
+    //         })
+    //         loginBtnTxt("login")
+    //     }
+    //     else {
+    //         setLoginbtn({
+    //             link:"/signIn"
+    //         })
+    //         loginBtnTxt("signOut")
+    //     }
+    // }
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,6 +56,8 @@ export default function Navbar(props) {
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-primary" type="submit">Search</button>
+                            {/* <button className="btn btn-primary" onClick={toggleStyle}> {btntext} </button> */}
+
                         </form>
                     </div>
                 </div>
