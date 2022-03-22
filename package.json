@@ -1,6 +1,6 @@
 {
   "homepage": "http://alokknight.github.io/text-analysis",
-  "name": "alokknight",
+  "name": "text-analysis",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
