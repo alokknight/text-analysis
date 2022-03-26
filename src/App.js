@@ -11,16 +11,15 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
       <>
-      <HashRouter>
-      {/* <Routes> */}
-        <Route exact path="/" element = {<Home />} />
-        {/* <Route exact path="/signin" element = {<SignIn />} />
-        <Route exact path='/signup' element = {<SignUp />} />
-        <Route exact path='/signout' element = {<SignOut/>} /> */}
-        <Route exact path="/textanalysis" element = {<TextAnalysis/>} />
-        {/* <Route path='*' element = {<PNF/> }/> */}
-      {/* </Routes> */}
-      </HashRouter>
+          <Routes>
+            <Route exact path="/" element = {<Home />} />
+            {/* <Route exact path="/signin" element = {<SignIn />} />
+            <Route exact path='/signup' element = {<SignUp />} />
+            <Route exact path='/signout' element = {<SignOut/>} /> */}
+            <Route exact path="/textanalysis" element = {<TextAnalysis/>} />
+            {/* <Route path='*' element = {<PNF/> }/> */}
+          </Routes>
+
       <div className="blank">alokknight</div>
     </>
   );
