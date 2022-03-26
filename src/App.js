@@ -7,18 +7,20 @@ import About from "./components/About";
 // import Indexwhisky from "./components/Indexwhisky";
 // import Footer from "./components/Footer";
 import TextAnalysis from "./components/TextAnalysis";
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
       <>
-      <Routes>
+      <HashRouter>
+      {/* <Routes> */}
         <Route exact path="/" element = {<Home />} />
         {/* <Route exact path="/signin" element = {<SignIn />} />
         <Route exact path='/signup' element = {<SignUp />} />
         <Route exact path='/signout' element = {<SignOut/>} /> */}
         <Route exact path="/textanalysis" element = {<TextAnalysis/>} />
         {/* <Route path='*' element = {<PNF/> }/> */}
-      </Routes>
+      {/* </Routes> */}
+      </HashRouter>
       <div className="blank">alokknight</div>
     </>
   );
