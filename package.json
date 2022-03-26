@@ -1,9 +1,10 @@
 {
-  "homepages":"http://alokknight.github.io/text-analysis",
-  "name": "text-analysis",
+  "name": "alokknight",
+  "homepage": "https://alokknight.github.io/text-analysis",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fluentui/react": "^8.62.3",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -14,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
