@@ -40,7 +40,7 @@ a{color:inherit;}
 .content{max-width:980px;}
 .display-bottomleft{position:absolute;left:0;bottom:0;}
 .round{border-radius:4px;}
-.round-xlarge{border-radius:16px;}
+.round-xlarge{border-radius:10px;}
 .row-padding,.row-padding>.third,.row-padding>.twothird{padding:0 8px;}
 .container{padding:0.01em 16px;}
 .card{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);}
@@ -54,13 +54,14 @@ a{color:inherit;}
 .margin-bottom{margin-bottom:16px!important;}
 .margin-right{margin-right:16px!important;}
 .padding-16{padding-top:16px!important;padding-bottom:16px!important;}
-.teal{color:#fff!important;background-color:#9493e0!important;}
+.teal{color:#fff!important;background:linear-gradient(83deg, #410bad, #e64583)!important;}
 .white{color:#000!important;background-color:#fff!important;}
 .light-grey{color:#000!important;background-color:#f1f1f1!important;}
 .text-teal{color:#070657!important;}
 .text-white{color:#fff!important;}
 .text-black{color:#000!important;}
 .text-grey{color:#757575!important;}
+/* .text-grey{color:#1d1c1c!important;} */
 /*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
 .fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
 .fa-fw{width:1.28571429em;text-align:center;}

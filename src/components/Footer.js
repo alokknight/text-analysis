@@ -48,7 +48,7 @@ export default function Footer() {
                 MMMUT <br/>
                 Gorakhpur<br/>
                 India<br/>
-                <strong>Phone:</strong> +91 XXX XXX XXXX<br/>
+                <strong>Phone:</strong> +91 789 786 7722<br/>
                 <strong>Email:</strong> alokpatel885@gmail.com<br/>
                 </p>
 

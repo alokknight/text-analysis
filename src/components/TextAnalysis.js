@@ -11,7 +11,6 @@ class TextAnalysis extends React.Component {
         return(
             <div>
                 <Navbar title="TextAnalysis" aboutText="about-TextAnalysis" />
-
                 <div className="container">
                 <TextForm heading="Enter your text for Text Analysis." />
                 </div>

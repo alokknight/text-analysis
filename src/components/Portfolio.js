@@ -1,9 +1,12 @@
-import React from 'react'
-import '../portfolio.css'
+import React from 'react';
+import '../portfolio.css';
+import Footer from './Footer.js';
+import Navbar from './Navbar.js';
 export default function Portfolio() {
     return (
     <div>
-
+        <Navbar title="Portfolio" aboutText="My-portfoilo" />
+        <body className="#">
         {/* <!-- Page Container --> */}
         <div className="content margin-top" style={{"max-width":"1400px"}}>
 
@@ -21,6 +24,7 @@ export default function Portfolio() {
                 </div>
                 </div>
                 <div className="container">
+                <hr/>
                 <p><i className="fa fa-briefcase fa-fw margin-right large text-teal"></i>Web Developer</p>
                 <p><i className="fa fa-home fa-fw margin-right large text-teal"></i>LKO, UP</p>
                 <p><i className="fa fa-envelope fa-fw margin-right large text-teal"></i>alokpatel885@gmail.com</p>
@@ -121,19 +125,10 @@ export default function Portfolio() {
         </div>
 
         </div>
+        </body>
 
-        <footer className="container teal center margin-top">
-        <p>Find me on social media.</p>
-        <i className="fa fa-facebook-official hover-opacity"></i>
-        <i className="fa fa-instagram hover-opacity"></i>
-        <i className="fa fa-snapchat hover-opacity"></i>
-        <i className="fa fa-pinterest-p hover-opacity"></i>
-        <i className="fa fa-twitter hover-opacity"></i>
-        <i className="fa fa-linkedin hover-opacity"></i>
         <p>Powered by <a href="https://www.alokknight.com" target="_blank">CODERPAPA</a></p>
-        </footer>
-
-
+        <Footer/>
     </div>
     )
 }

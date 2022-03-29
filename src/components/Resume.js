@@ -1,16 +1,18 @@
 import React from 'react';
-import "../Resume.css";
+import "./Resume.css";
+import Navbar from "./Navbar.js"
 export default function Resume() {
   return (
     <div>
-
+        <Navbar title="Resume" aboutText="Resume" />
+            <body id="resume">
                 <title>ALOKPATEL resume</title>
 
                 <header id="header">
                     {/* <!-- resume header with your name and title --> */}
                     <h1><b>ALOK</b> PATEL</h1>
                     <hr/>
-                    <b>PYTHON DEVELOPER</b>
+                    <h3>PYTHON DEVELOPER</h3>
                     <hr/>
                 </header>
                 <main>
@@ -110,9 +112,9 @@ export default function Resume() {
                         <section>
                             <h2>PROJECTS</h2>
                             {/* <!-- your work experience --> */}
-                                <h3><b>Dynamic Website | Live 🔗🔗 Nov 2021 - Present</b></h3>
+                                <b>Dynamic Website </b>| Live 🔗🔗 Nov 2021 - Present
                                 <p>
-                                        Goal: To develop a freelancing website from scratch with backend and third-party
+                                        <b>Goal:</b>To develop a freelancing website from scratch with backend and third-party
                                         authentication where everyone can register himself and make their portfolio using
                                         Portfolio module and learn new skills using Tutorial module and add his projects
                                         details & links in Project module to get freelance work.
@@ -120,40 +122,45 @@ export default function Resume() {
                                 <ul>
                                         ● Developed reusable modules- Blog, Account, Contact, Objective-questions.
                                         ● Only Authorized person can perform CRUD using Forms.
-                                        ● Tech Used: DJANGO, MongoDB Atlas, HTML/CSS, JS, BOOSTRAP
-                                        Whisky Quality Prediction | CODE | Live 🔗🔗 July 2020 – Aug 2020
-                                        Goal: To develop a model which can predict the quality of whisky the basis of its
+                                        <li><b>Tech Used:</b> DJANGO, MongoDB Atlas, HTML/CSS, JS, BOOSTRAP</li>
+                                </ul>
+                                        <b>Whisky Quality Prediction </b>| CODE | Live 🔗🔗 July 2020 – Aug 2020
+                                <p>
+                                        <b>Goal:</b> To develop a model which can predict the quality of whisky the basis of its
                                         contains and deploy it on Heroku.
-                                        ● Tech Used: ML, DJANGO, DJANGO REST FRAMEWORK, React,
-                                        HTML/CSS, JS
+                                </p>
+                                <ul>
+                                        <li><b>Tech Used:</b> ML, DJANGO, DJANGO REST FRAMEWORK, React,
+                                        HTML/CSS, JS</li>
                                 </ul>
 
-                                <h3><b>Car Price Prediction </b>| CODE | Live 🔗🔗 Apr 2019 – May 2019</h3>
+
+                                <b>Car Price Prediction </b>| CODE | Live 🔗🔗 Apr 2019 – May 2019
 
                                 <p>
-                                        Goal: To develop a model which can predict the price of an old vehicle (car) on
+                                        <b>Goal:</b> To develop a model which can predict the price of an old vehicle (car) on
                                         the basis of its age, previous owner count, kilometer driven, year, fuel type &
                                         current showroom price etc.
                                 </p>
                                 <ul>
 
-                                        <li>Tech Used: ML, DJANGO, HTML/CSS, BOOSTRAP</li>
+                                        <li><b>Tech Used:</b> ML, DJANGO, HTML/CSS, BOOSTRAP</li>
                                 </ul>
 
-                                <h3><b/>Hostel Management System | Code 🔗🔗 Oct 2018 – Dec 2018</h3>
+                                <b>Hostel Management System </b>| Code 🔗🔗 Oct 2018 – Dec 2018
                                 <p>
-                                        Goal: To create a system where an admin (hostel manager) has permission to
+                                        <b>Goal:</b> To create a system where an admin (hostel manager) has permission to
                                         add, remove and delete the details of students using his password.
                                 </p>
                                 <ul>
 
                                         <li>Students can only view their details using their common password.</li>
-                                        <li>Tech Used: C++, OPPs.</li>
+                                        <li><b>Tech Used:</b> C++, OPPs.</li>
                                 </ul>
                         </section>
                     </article>
                 </main>
-
+                </body>
     </div>
   )
 }

@@ -15,7 +15,7 @@ export default function Sponsers() {
 
                     </div>
                     <div className="box">
-                        <img herf={require("./Images/Strathisla.gif")} alt="" />
+                        <img src={require("./Images/Strathisla.gif")} alt="" />
                         {/* <img src={require("./Images/logo.jpg")} alt="logo"/> */}
                         <h2 className="h-secondary center">Strathisla Distillery</h2>
                         <p className="center">Owned by Chivas Brothers, Strathisla claims to be the oldest continuously operating distillery in the Scottish Highlands, having first been established in 1786 on the banks of the River Isla. The Highland distillery was bought by the French drinks giant at auction in 1950 and has since produced liquid principally htmlFor the Chivas Regal and Royal Salute blends. With its beautiful cobbled courtyard and double pagodas, the distillery is also considered one of the most picturesque in Scotland. The guided tour of Strathisla Distillery takes visitors through the bonded warehouses and includes a tutored tasting session.</p>

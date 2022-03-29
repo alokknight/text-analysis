@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
+import Apartment from './components/Apartment';
 // import Indexwhisky from "./components/Indexwhisky";
 // import Footer from "./components/Footer";
 import TextAnalysis from "./components/TextAnalysis";
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/" element = {<Home />} />
             <Route exact path="/resume" element = {<Resume/>}/>/
             <Route exact path="/portfolio" element = {<Portfolio />} />
+            <Route exact path="/apartment" element = {<Apartment />} />
             {/* <Route exact path="/signin" element = {<SignIn />} />
             <Route exact path='/signup' element = {<SignUp />} />
             <Route exact path='/signout' element = {<SignOut/>} /> */}
