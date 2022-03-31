@@ -1,17 +1,16 @@
 import React from 'react'
-
 export default function Inputform() {
     return (
     <div>
-        
+
         <section id="form">
-            <h2 className="h-primary center"> Fill the details</h2>
+            <h2 id="wformh2" className="h-primary center"> Fill the details</h2>
             <div id="form-box">
                 <form action="/" method="post">
                     {/* {% csrf_token %} */}
-                    <div className="form-group">
+                    <div className="form-group ">
                         <label htmlFor="alchohol_content">Alchohol Content: </label><br />
-                        <input type="Number" name="alchohol_content" id="alchohol_content" placeholder="Enter a Number" step="0.01" min="0" max="1000" required="true" />
+                        <input type="Number" name="alchohol_content" id="alchohol_content " placeholder="Enter a Number" step="0.01" min="0" max="1000" required="true" />
                     </div>
                     <div className="form-group">
                         <label htmlFor="malic_acid">Malic Acid: </label><br />

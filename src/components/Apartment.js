@@ -95,6 +95,14 @@ export default function Apartment(props) {
                             Subscribe
                         </a>
                         <a href="#contact" className="bar-item button padding-16"><i className="fa fa-envelope"></i> Contact</a>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                     </div>
                 </nav>
 
@@ -107,6 +115,8 @@ export default function Apartment(props) {
                 {/* <!-- Overlay effect when opening sidebar on small screens --> */}
                 <div className="overlay hide-large" onclick={close}  title="close side menu" id="myOverlay"></div>
 
+
+
                 {/* <!-- !PAGE CONTENT! --> */}
                 <div className="main white" >
 
@@ -117,53 +127,54 @@ export default function Apartment(props) {
                     <div className="container" id="apartment">
                         <h2 className="text-green">The Apartment</h2>
                         <div className="display-container mySlides">
-                            <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
+                            <img src={require("../Images/apartment/livingroom2.jpg")}  alt="1" />
+                            {/* <img src={require("./Images/Eradour_Distillery.jpg")} alt="" /> */}
                             <div className="display-bottomleft container black">
-                                <p>Living Room</p>
+                                <p><b>Living Room</b></p>
                             </div>
                         </div>
                         <div className="display-container mySlides">
-                            <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
+                            <img src={require("../Images/apartment/bedroom.jpg")} alt="2" />
                             <div className="display-bottomleft container black">
-                                <p>Dining Room</p>
+                                <p><b>Dining Room</b></p>
                             </div>
                         </div>
                         <div className="display-container mySlides">
-                            <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
+                            <img src={require("../Images/apartment/bedroom.jpg")} alt="" />
                             <div className="display-bottomleft container black">
-                                <p>Bedroom</p>
+                                <p><b>Bedroom</b></p>
                             </div>
                         </div>
                         <div className="display-container mySlides">
-                            <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
+                            <img src={require("../Images/apartment/kitchen1.jpg")} alt="" />
                             <div className="display-bottomleft container black">
-                                <p>Living Room II </p>
+                                <p><b>Kitchen1</b> </p>
                             </div>
                         </div>
                     </div>
 
                     <div className="row-padding section">
-                        <div className="col s3">
-                            <img className="demo opacity hover-opacity-off"
-                            src={require("./Images/Eradour_Distillery.jpg")}
+                        <div className="col s3" id="transZ">
+                            <img className="demo opacity hover-opacity-off "
+                            src={require("../Images/apartment/livingroom.jpg")}
                             onclick={()=>currentDiv(1)}
                             title="Living room" />
                         </div>
-                        <div className="col s3">
+                        <div className="col s3" id="transZ">
                             <img className="demo opacity hover-opacity-off"
-                            src={require("./Images/Eradour_Distillery.jpg")}
-                            onclick={()=>currentDiv('2')}
+                            src={require("../Images/apartment/bedroom.jpg")}
+                            onclick={()=>currentDiv(2)}
                             title="Dining room" />
                         </div>
-                        <div className="col s3">
+                        <div className="col s3" id="transZ">
                             <img className="demo opacity hover-opacity-off"
-                            src={require("./Images/Eradour_Distillery.jpg")}
+                            src={require("../Images/apartment/bedroom.jpg")}
                             onclick={()=>currentDiv(3)}
                             title="Bedroom" />
                         </div>
-                        <div className="col s3">
+                        <div className="col s3" id="transZ">
                             <img className="demo opacity hover-opacity-off"
-                            src={require("./Images/Eradour_Distillery.jpg")}
+                            src={require("../Images/apartment/kitchen1.jpg")}
                             onclick={()=>currentDiv(4)}
                             title="Second Living Room/" />
                         </div>

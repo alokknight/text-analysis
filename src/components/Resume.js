@@ -103,8 +103,7 @@ export default function Resume() {
                             {/* <!-- about you --> */}
                             <p>Hi, I’m ALOK.</p>
                             <p>I’m up for SDE, Python Developer (Full Stack).</p>
-                            <p>I need a challenging role at a reputed IT organization to utilize my development and problem-solving</p>
-                            <p>skills that can contribute to the company’s growth as well
+                            <p>I need a challenging role at a reputed IT organization to utilize my development and problem-solving skills that can contribute to the company’s growth as well
                             as enhance my knowledge by exploring new things.</p>
 
                         </section>

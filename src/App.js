@@ -7,9 +7,11 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import Apartment from './components/Apartment';
+import Gallary from './components/Gallary';
 // import Indexwhisky from "./components/Indexwhisky";
 // import Footer from "./components/Footer";
 import TextAnalysis from "./components/TextAnalysis";
+import Skill from './components/Skill';
 import {Routes, Route } from 'react-router-dom';
 // import {Link, HashRouter } from 'react-router-dom';
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route exact path="/resume" element = {<Resume/>}/>/
             <Route exact path="/portfolio" element = {<Portfolio />} />
             <Route exact path="/apartment" element = {<Apartment />} />
+            <Route exact path="/skill" element = {<Skill />} />
+            <Route exact path="/gallary" element={<Gallary />}/>
             {/* <Route exact path="/signin" element = {<SignIn />} />
             <Route exact path='/signup' element = {<SignUp />} />
             <Route exact path='/signout' element = {<SignOut/>} /> */}

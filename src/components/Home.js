@@ -5,6 +5,8 @@ import Sponsers from './Sponsers';
 import Inputform from './Inputform';
 import Button from './Button';
 import Indexwhisky from './Indexwhisky';
+import Gallary from './Gallary.js'
+
 class Home extends React.Component {
     render (){
         return(
@@ -13,6 +15,7 @@ class Home extends React.Component {
                 <Indexwhisky/>
                 <Inputform/>
                 <Sponsers/>
+                <Gallary/>
                 <Footer/>
             </div>
         )

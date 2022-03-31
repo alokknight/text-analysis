@@ -17,7 +17,7 @@ export default function Portfolio() {
             <div className="third">
 
             <div className="white text-grey card-4">
-                <div className="display-container">
+                <div className="display-container" id ="portImage">
                 <img src={require("../Images/alok.jpg")} style={{width:"100%"}} alt="Avatar"/>
                 <div className="display-bottomleft container text-black">
                     <h2>ALOK PATEL</h2>

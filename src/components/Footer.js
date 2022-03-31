@@ -79,9 +79,10 @@ export default function Footer() {
                 Made with 💖
             </div>
         </div>
+        <a href="#" className="back-to-top"><i className="fa fa-angle-up"></i></a>
 </footer>
 
-  <a href="#" className="back-to-top"><i className="fa fa-angle-up"></i></a>
+
 </div>
 </>
     )
