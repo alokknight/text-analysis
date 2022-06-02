@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/text-analysis/static/css/main.6075c140.css",
-    "main.js": "/text-analysis/static/js/main.990676ae.js",
-    "static/js/787.34646431.chunk.js": "/text-analysis/static/js/787.34646431.chunk.js",
-    "static/media/bg1.jpg": "/text-analysis/static/media/bg1.78f23d7d07c1998dce63.jpg",
-    "static/media/form.jpg": "/text-analysis/static/media/form.bb76958206c2f4192b3a.jpg",
-    "static/media/Eradour_Distillery.jpg": "/text-analysis/static/media/Eradour_Distillery.130094e3cc2112eb7489.jpg",
-    "static/media/Glenmorangie_Distillery.jpg": "/text-analysis/static/media/Glenmorangie_Distillery.f4df04a473d9dd3957d8.jpg",
-    "static/media/Strathisla.gif": "/text-analysis/static/media/Strathisla.18dd2aad104debb7868d.gif",
-    "static/media/eandj.jpg": "/text-analysis/static/media/eandj.23b0dbfe0e4ae75cc915.jpg",
-    "static/media/treasurywines.png": "/text-analysis/static/media/treasurywines.f59eb5fdd6ccb49b908e.png",
-    "static/media/pernod.png": "/text-analysis/static/media/pernod.c2c66c7cbad2001af19f.png",
-    "index.html": "/text-analysis/index.html",
-    "main.6075c140.css.map": "/text-analysis/static/css/main.6075c140.css.map",
-    "main.990676ae.js.map": "/text-analysis/static/js/main.990676ae.js.map",
-    "787.34646431.chunk.js.map": "/text-analysis/static/js/787.34646431.chunk.js.map"
+    "main.css": "/textanalysis/static/css/main.6a088bf4.css",
+    "main.js": "/textanalysis/static/js/main.c8fc5b7d.js",
+    "static/js/787.34646431.chunk.js": "/textanalysis/static/js/787.34646431.chunk.js",
+    "static/media/bg1.jpg": "/textanalysis/static/media/bg1.78f23d7d07c1998dce63.jpg",
+    "static/media/form.jpg": "/textanalysis/static/media/form.bb76958206c2f4192b3a.jpg",
+    "static/media/livingroom.jpg": "/textanalysis/static/media/livingroom.e3d97f3b6ed41221511a.jpg",
+    "static/media/livingroom2.jpg": "/textanalysis/static/media/livingroom2.9c455916246f282acee5.jpg",
+    "static/media/kitchen1.jpg": "/textanalysis/static/media/kitchen1.36d8f9b8bdb473bb6e44.jpg",
+    "static/media/Eradour_Distillery.jpg": "/textanalysis/static/media/Eradour_Distillery.130094e3cc2112eb7489.jpg",
+    "static/media/Glenmorangie_Distillery.jpg": "/textanalysis/static/media/Glenmorangie_Distillery.f4df04a473d9dd3957d8.jpg",
+    "static/media/alok.jpg": "/textanalysis/static/media/alok.3edc831e5fc10cb6322d.jpg",
+    "static/media/Strathisla.gif": "/textanalysis/static/media/Strathisla.18dd2aad104debb7868d.gif",
+    "static/media/logo.jpg": "/textanalysis/static/media/logo.a4f0655a48612a69693d.jpg",
+    "static/media/eandj.jpg": "/textanalysis/static/media/eandj.23b0dbfe0e4ae75cc915.jpg",
+    "static/media/treasurywines.png": "/textanalysis/static/media/treasurywines.f59eb5fdd6ccb49b908e.png",
+    "index.html": "/textanalysis/index.html",
+    "main.6a088bf4.css.map": "/textanalysis/static/css/main.6a088bf4.css.map",
+    "main.c8fc5b7d.js.map": "/textanalysis/static/js/main.c8fc5b7d.js.map",
+    "787.34646431.chunk.js.map": "/textanalysis/static/js/787.34646431.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6075c140.css",
-    "static/js/main.990676ae.js"
+    "static/css/main.6a088bf4.css",
+    "static/js/main.c8fc5b7d.js"
   ]
 }
