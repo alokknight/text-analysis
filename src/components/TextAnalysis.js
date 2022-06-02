@@ -10,12 +10,10 @@ class TextAnalysis extends React.Component {
     render (){
         return(
             <div>
-                <Navbar title="TextAnalysis" aboutText="about-TextAnalysis" />
                 <div className="container">
                 <TextForm heading="Enter your text for Text Analysis." />
                 </div>
                 <About/>
-                <Footer/>
             </div>
         )
     }

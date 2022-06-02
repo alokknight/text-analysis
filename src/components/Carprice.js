@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Navbar from './Navbar';
-import Footer from './Footer';
+// import Navbar from './Navbar';
+// import Footer from './Footer';
 const predict = () => {
 
 }
@@ -11,7 +11,6 @@ export default class Carprice extends Component {
     render() {
         return (
             <div className="row">
-                <Navbar title="CarPrice" aboutText="about-Carprice" />
 
                 <div className="container text-center p-1 col-md-8 col-sm-10 col-xs-10 mb-1 text-white">
 

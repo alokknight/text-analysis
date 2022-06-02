@@ -59,7 +59,6 @@ export default function Apartment(props) {
 
     return (
         <div>
-            <Navbar/>
             <body className="content border-left border-right">
 
                 {/* <!-- Sidebar/menu --> */}
