@@ -15,9 +15,9 @@ export default function Resume() {
                     <h3>PYTHON DEVELOPER</h3>
                     <hr/>
                 </header>
-                <main>
+                <main className="">
                     <article id="mainLeft">
-                        <section>
+                        <section className="">
                             <h2>CONTACT</h2>
 
                             {/* <!-- contact info including social media --> */}
@@ -97,7 +97,7 @@ export default function Resume() {
 
                     </article>
 
-                    <article id="mainRight">
+                    <article   id="mainRight">
                         <section>
                             <h2>ABOUT</h2>
                             {/* <!-- about you --> */}

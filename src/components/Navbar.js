@@ -38,16 +38,21 @@ render() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <a className="navbar-brand" href="/">HOME</a>
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             {/* <li className="nav-item">
                                 <a className="nav-link" href="/">{props.aboutText}</a>
                             </li> */}
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">Whisky</a>
+                                <a className="nav-link active" aria-current="page" href="/">TextAnalysis</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/textanalysis">TextAnalysis</a>
+                                <a className="nav-link active" aria-current="page" href="/carprice">CarPricePrediction</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/whisky">WhiskyQualityCheckup</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/semanticanalysis">SemanticAnalysis</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/resume">Resume</a>

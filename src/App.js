@@ -10,7 +10,9 @@ import Apartment from './components/Apartment';
 import Gallary from './components/Gallary';
 // import Indexwhisky from "./components/Indexwhisky";
 // import Footer from "./components/Footer";
+import Carprice from "./components/Carprice";
 import TextAnalysis from "./components/TextAnalysis";
+import SemanticAnalysis from "./components/SemanticAnalysis";
 import Skill from './components/Skill';
 import {Routes, Route } from 'react-router-dom';
 // import {Link, HashRouter } from 'react-router-dom';
@@ -19,7 +21,9 @@ function App() {
       <>
 
           <Routes>
-            <Route exact path="/" element = {<Home />} />
+            <Route exact path="/" element = {<TextAnalysis/>} />
+            <Route exact path="/whisky" element = {<Home />} />
+            <Route exact path="/carprice" element = {<Carprice />} />
             <Route exact path="/resume" element = {<Resume/>}/>/
             <Route exact path="/portfolio" element = {<Portfolio />} />
             <Route exact path="/apartment" element = {<Apartment />} />
@@ -28,7 +32,7 @@ function App() {
             {/* <Route exact path="/signin" element = {<SignIn />} />
             <Route exact path='/signup' element = {<SignUp />} />
             <Route exact path='/signout' element = {<SignOut/>} /> */}
-            <Route exact path="/textanalysis" element = {<TextAnalysis/>} />
+            <Route exact path="/semanticanalysis" element = {<SemanticAnalysis/>} />
             {/* <Route path='*' element = {<PNF/> }/> */}
           </Routes>
 

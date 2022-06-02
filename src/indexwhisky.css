@@ -13,7 +13,7 @@ html{
 #navbar{
     display: flex;
     align-items: center;
-    position: fixed;
+    position: fixed!important;
     top: 0px;
 }
 
@@ -33,6 +33,7 @@ html{
 /* Navigation Bar: Logo and Image */
 #logo{
     margin: 10px 34px;
+    margin-right: 10px;
 }
 
 #logo img{
@@ -70,7 +71,7 @@ html{
 
 .active {
   visibility: visible ;
-  transition: all 4s;
+  transition: all 0.8s;
 }
 .hidden {
   visibility: hidden;

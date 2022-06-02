@@ -12,7 +12,29 @@ body {
     purple,
     #ee6352);
 }
+.element-to-rotate {
+  display: block;
+  transform-origin: top left;
+  /* Note: for a CLOCKWISE rotation, use the commented-out
+     transform instead of this one. */
+  transform: rotate(-90deg) translate(-100%);
+  /* transform: rotate(90deg) translate(0, -100%); */
+  margin-top: -50%;
 
+  /* Not vital, but possibly a good idea if the element you're rotating contains
+    text and you want a single long vertical line of text and the pre-rotation
+    width of your element is small enough that the text wraps: */
+  white-space: nowrap;
+}
+.rotation-wrapper-outer {
+  display: table;
+  width:2000px;
+}
+.rotation-wrapper-inner {
+  padding: 0 0;
+  height: 200px;
+  width:2000px;
+}
 .horizontal-scroll-wrapper{
   /* position:absolute; */
   display:block;
@@ -20,13 +42,13 @@ body {
   left:0;
   /* width:80px; */
   width:250px;
-  max-height:200px;
+  max-height:200px !important;
   margin:0;
   background:none;
   /* background: rgba(24, 207, 33, 0.133); */
   overflow-y:auto;
   overflow-x:hidden;
-  transform:rotate(-90deg) translateY(-80px);
+  transform:rotate(-90deg) translateY(-800px);
   transform-origin:right top;
 }
 
@@ -34,8 +56,7 @@ body {
   display:block;
   padding:5px;
   background:none;
-  /* background:#ee6352; */
-  transform:rotate(90deg);
+  transform:rotate(90deg) translate(-300%);
   transform-origin: right top;
 }
 
