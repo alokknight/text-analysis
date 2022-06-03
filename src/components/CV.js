@@ -5,7 +5,6 @@ import Navbar from './Navbar.js';
 export default function Portfolio() {
     return (
     <div>
-        <Navbar title="Portfolio" aboutText="My-portfoilo" />
         <body className="#">
         {/* <!-- Page Container --> */}
         <div className="content margin-top" style={{"max-width":"1400px"}}>
@@ -126,9 +125,6 @@ export default function Portfolio() {
 
         </div>
         </body>
-
-        <p>Powered by <a href="https://www.alokknight.com" target="_blank">CODERPAPA</a></p>
-        <Footer/>
     </div>
     )
 }

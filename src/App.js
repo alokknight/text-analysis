@@ -3,12 +3,14 @@ import "./App.css";
 import "./indexwhisky.css";
 import Whisky from "./components/Whisky";
 import Navbar from "./components/Navbar";
+import FAQ from "./components/FAQ";
+import PNF from './components/404';
+import Help from './components/Help';
 import About from "./components/About";
-import Portfolio from "./components/Portfolio";
+import CV from "./components/CV";
 import Resume from "./components/Resume";
 import Apartment from './components/Apartment';
 import Gallary from './components/Gallary';
-// import Indexwhisky from "./components/Indexwhisky";
 import Footer from "./components/Footer";
 import Carprice from "./components/Carprice";
 import TextAnalysis from "./components/TextAnalysis";
@@ -22,28 +24,41 @@ function App() {
       <div>
         <Navbar/>
 
-        <Router>
-        <Switch>
-          {/* <Routes> */}
+          {/* <Routes>
             <Route exact path="/textanalysis" element = {<TextAnalysis/>} />
-            <Route exact path="/whisky" element = {<Whisky/>} />
-            <Route exact path="/carprice" element = {<Carprice />} />
-            <Route exact path="/resume" element = {<Resume/>}/>/
-            <Route exact path="/portfolio" element = {<Portfolio />} />
-            <Route exact path="/apartment" element = {<Apartment />} />
-            <Route exact path="/skill" element = {<Skill />} />
-            <Route exact path="/gallary" element={<Gallary />}/>
+            <Route exact path="/whisky"       element = {<Whisky/>} />
+            <Route exact path="/carprice"     element = {<Carprice />} />
+            <Route exact path="/semanticanalysis" element = {<SemanticAnalysis/>} />
+            <Route exact path="/resume"       element = {<Resume/>}/>/
+            <Route exact path="/portfolio"    element = {<Portfolio />} />
+            <Route exact path="/apartment"    element = {<Apartment />} />
+            <Route exact path="/skill"        element = {<Skill />} />
+            <Route exact path="/gallary"      element = {<Gallary />}/>
+          </Routes> */}
+
             {/* <Route exact path="/signin" element = {<SignIn />} />
             <Route exact path='/signup' element = {<SignUp />} />
             <Route exact path='/signout' element = {<SignOut/>} /> */}
-            <Route exact path="/semanticanalysis" element = {<SemanticAnalysis/>} />
             {/* <Route path='*' element = {<PNF/> }/> */}
-          {/* </Routes> */}
+
+          <Switch>
+            <Route path="/semanticanalysis"exact><SemanticAnalysis/></Route>
+            <Route path="/textanalysis" exact><TextAnalysis/></Route>
+
+            <Route path="/help"       exact><Help/>          </Route>
+            <Route path="/whisky"       exact><Whisky/>      </Route>
+            <Route path="/About"       exact><About/>        </Route>
+            <Route path="/carprice"     exact><Carprice />   </Route>
+            <Route path="/resume"       exact><Resume/>      </Route>
+            <Route path="/cv"           exact><CV />         </Route>
+            <Route path="/apartment"    exact><Apartment />  </Route>
+            <Route path="/skill"        exact><Skill />      </Route>
+            <Route path="/gallary"      exact><Gallary />    </Route>
+            <Route path="*"             exact><PNF/>         </Route>
         </Switch>
-        </Router>
 
         <Footer/>
-      <a target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a>
+      <a className="text-center" target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a>
     </div>
   );
 }

@@ -32,7 +32,7 @@ render() {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid nav">
                     <a href="https://www.alokknight.com" class="#">
-                    <img src={require("./Images/Strathisla.gif")} width={52} height={40} /></a>
+                    <img src={require("./Images/alokknight_logo_white.png")} width={60} height={50} /></a>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@ render() {
                                 <a className="nav-link" href="/">{props.aboutText}</a>
                             </li> */}
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/">TextAnalysis</a>
+                                <a className="nav-link active" aria-current="page" href="/textanalysis">TextAnalysis</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/carprice">CarPricePrediction</a>
@@ -55,13 +55,19 @@ render() {
                                 <a className="nav-link active" aria-current="page" href="/semanticanalysis">SemanticAnalysis</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/resume">Resume</a>
-                            </li>
-                            <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/CV">CV</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/resume">Resume</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="/apartment">Apartment</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/about">About</a>
                             </li>
 
                             {/* <li className="nav-item dropdown">

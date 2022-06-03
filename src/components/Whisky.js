@@ -10,8 +10,8 @@ class Whisky extends React.Component {
             <div>
                 <Indexwhisky/>
                 <Inputform/>
-                <Sponsers/>
                 <Gallary/>
+                <Sponsers/>
             </div>
         )
     }

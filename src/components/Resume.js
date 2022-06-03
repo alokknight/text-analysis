@@ -1,10 +1,8 @@
 import React from 'react';
 import "./Resume.css";
-import Navbar from "./Navbar.js"
 export default function Resume() {
   return (
     <div>
-        <Navbar title="Resume" aboutText="Resume" />
             <body id="resume">
                 <title>ALOKPATEL resume</title>
 
