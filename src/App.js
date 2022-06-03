@@ -40,23 +40,23 @@ function App() {
             <Route exact path='/signup' element = {<SignUp />} />
             <Route exact path='/signout' element = {<SignOut/>} /> */}
             {/* <Route path='*' element = {<PNF/> }/> */}
-<Router>
+{/* <Router> */}
           <Switch>
             <Route path="/semanticanalysis"exact><SemanticAnalysis/></Route>
             <Route path="/textanalysis" exact><TextAnalysis/></Route>
-
-            <Route path="/help"       exact><Help/>          </Route>
+            <Route path="/help"         exact><Help/>        </Route>
             <Route path="/whisky"       exact><Whisky/>      </Route>
-            <Route path="/About"       exact><About/>        </Route>
+            <Route path="/About"        exact><About/>       </Route>
             <Route path="/carprice"     exact><Carprice />   </Route>
             <Route path="/resume"       exact><Resume/>      </Route>
             <Route path="/cv"           exact><CV />         </Route>
             <Route path="/apartment"    exact><Apartment />  </Route>
             <Route path="/skill"        exact><Skill />      </Route>
             <Route path="/gallary"      exact><Gallary />    </Route>
+            <Route path="/FAQ"          exact><FAQ />        </Route>
             <Route path="*"             exact><PNF/>         </Route>
         </Switch>
-</Router>
+{/* </Router> */}
 
         <Footer/>
       <a className="text-center" target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a>

@@ -1,14 +1,10 @@
 import React from 'react'
+import { Link} from 'react-router-dom'
 
 export default function Footer() {
     return (
         <>
             <div>
-                {/* <div className="center">
-                <a href="https://www.coderpapa.org">coderpapa</a>
-                No Copyright &copy;  My Company. Only htmlFor Educational Purposes!
-            </div> */}
-
 
                 <footer id="footer" >
                     <div className="footer-top">
@@ -23,22 +19,22 @@ export default function Footer() {
                                 <div className="col-lg-3 col-md-6 footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Home</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">About us</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Services</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Home</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">About us</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Services</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Terms of service</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Privacy policy</Link></li>
                                     </ul>
                                 </div>
 
                                 <div className="col-lg-3 col-md-6 footer-links">
                                     <h4>Useful Links</h4>
                                     <ul>
-                                        <li><i className="fa fa-angle-right"></i> <a href="/">Home</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="/about">About us</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Services</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-                                        <li><i className="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="/">Home</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="/about">About us</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Services</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Terms of service</Link></li>
+                                        <li><i className="fa fa-angle-right"></i> <Link to="#">Privacy policy</Link></li>
                                     </ul>
                                 </div>
 

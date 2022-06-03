@@ -1,7 +1,6 @@
 import React, {useEffect, useState } from 'react';
-import Footer from './Footer.js';
+import {Link} from 'react-router-dom';
 import './Apartment.css';
-import Navbar from './Navbar';
 export default function Apartment(props) {
         // {/* // Script to open and close sidebar when on tablets and phones */ }
 
@@ -83,17 +82,17 @@ export default function Apartment(props) {
                         </form>
                     </div>
                     <div className="bar-block">
-                        <a href="#apartment" className="bar-item button padding-16"><i className="fa fa-building"></i> Apartment</a>
-                        <a
-                        href="javascript:void(0)"
+                        <Link to="#apartment" className="bar-item button padding-16"><i className="fa fa-building"></i> Apartment</Link>
+                        <Link
+                        to="javascript:void(0)"
                         className="bar-item button padding-16"
                         // onclick={()=>document.getElementById('subscribe').style.display='block'}
                         // onclick={()=>getbyId('subscribe','block')}
                         >
                         <i className="fa fa-rss"></i>
                             Subscribe
-                        </a>
-                        <a href="#contact" className="bar-item button padding-16"><i className="fa fa-envelope"></i> Contact</a>
+                        </Link>
+                        <Link to="#contact" className="bar-item button padding-16"><i className="fa fa-envelope"></i> Contact</Link>
                         <br/>
                         <br/>
                         <br/>
@@ -108,7 +107,7 @@ export default function Apartment(props) {
                 {/* <!-- Top menu on small screens --> */}
                 <header className="bar top hide-large black xlarge">
                     <span className="bar-item">Rental</span>
-                    <a href="javascript:void(0)" className="right bar-item button" onclick={open}><i className="fa fa-bars"></i></a>
+                    <Link to="javascript:void(0)" className="right bar-item button" onclick={open}><i className="fa fa-bars"></i></Link>
                 </header>
 
                 {/* <!-- Overlay effect when opening sidebar on small screens --> */}
@@ -243,8 +242,7 @@ export default function Apartment(props) {
                     </div>
                     <hr/>
 
-                    <Footer/>
-                    {/* <!-- End page content --> */}
+b                    {/* <!-- End page content --> */}
                 </div>
 
 
