@@ -40,7 +40,7 @@ function App() {
             <Route exact path='/signup' element = {<SignUp />} />
             <Route exact path='/signout' element = {<SignOut/>} /> */}
             {/* <Route path='*' element = {<PNF/> }/> */}
-
+<Router>
           <Switch>
             <Route path="/semanticanalysis"exact><SemanticAnalysis/></Route>
             <Route path="/textanalysis" exact><TextAnalysis/></Route>
@@ -56,6 +56,7 @@ function App() {
             <Route path="/gallary"      exact><Gallary />    </Route>
             <Route path="*"             exact><PNF/>         </Route>
         </Switch>
+</Router>
 
         <Footer/>
       <a className="text-center" target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a>
