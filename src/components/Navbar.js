@@ -56,7 +56,7 @@ render() {
                                 <NavLink className="nav-link active" aria-current="page" to="/semanticanalysis">SemanticAnalysis</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/portfolio">Portfolio</NavLink>
+                                <a       className="nav-link active" aria-current="page" href="https://www.alokknight.com/portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link active" aria-current="page" to="/CV">CV</NavLink>
