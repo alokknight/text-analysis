@@ -3,7 +3,6 @@ import { Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import './signin.css';
 import Form from './Form';
-import Navbar from './Navbar';
 
 class SignIn extends React.Component {
   constructor(props) {
@@ -58,7 +57,6 @@ class SignIn extends React.Component {
     if (this.state.redirect) return <Navigate to="/" />;
     return (
       <React.Fragment>
-        <Navbar />
         <div>
         <div className="container">
           <div className="d-flex justify-content-center h-100">
@@ -77,7 +75,7 @@ class SignIn extends React.Component {
 
               <Form onSubmit={this.onSubmitHandler}>
                 <h3 className="text-center text-info">Login</h3>
-                <div className="form-group">
+                <div>
                   <label htmlFor="email" className="text-info">Email:</label><br />
                   <input
                     id="email"
@@ -88,7 +86,7 @@ class SignIn extends React.Component {
                     onChange={this.changeHandler}
                     required />
                 </div>
-                <div className="form-group">
+                <div>
                   <label htmlFor="password" className="text-info">Password:</label><br />
                   <input
                     id="password"

@@ -7,7 +7,8 @@ export default class Navbar extends React.Component {
         super();
         this.state = {
         show: true,
-        scrollPos: 0
+        scrollPos: 0,
+        loggedIn: localStorage.getItem('userTokenTime')
         };
     }
     componentDidMount() {
@@ -85,6 +86,22 @@ render() {
                             {/* <li className="nav-item">
                                 <a className="nav-link disabled" to="/" tabIndex="-1" aria-disabled="true">Disabled</a>
                             </li> */}
+
+
+                            {this.state.loggedIn ?
+                                    <React.Fragment>
+                                        <NavLink className="nav-item nav-link" to="/signout">Sign Out</NavLink>
+                                    </React.Fragment>
+                                    :
+                                    <React.Fragment>
+                                        <NavLink className="nav-item nav-link" to="/signup">Sign Up</NavLink>
+                                        <NavLink className="nav-item nav-link" to="/signin">Sign In</NavLink>
+                                    </React.Fragment>}
+
+
+
+
+
                         </ul>
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link, Navigate } from 'react-router-dom'
 import axios from 'axios';
-
 import Form from './Form';
-import Navbar from './Navbar';
 
 class SignUp extends React.Component {
   constructor(props) {
@@ -57,7 +55,6 @@ class SignUp extends React.Component {
     if (this.state.redirect) return <Navigate to='/signin' />
     return (
       <React.Fragment>
-        <Navbar />
         <div className="container" >
           <div className="d-flex justify-content-center h-100">
             <div className="registercard">
@@ -68,7 +65,7 @@ class SignUp extends React.Component {
               <div className="card-body">
                 <Form onSubmit={this.onSubmitHandler}>
                   {/* <h3 className="text-center text-info">Register</h3> */}
-                  <div className="form-group">
+                  <div>
                     <label htmlFor="first-name" className="text-info">First Name:</label><br />
                     <input
                       id="first-name"
@@ -79,7 +76,7 @@ class SignUp extends React.Component {
                       onChange={this.changeHandler}
                       required />
                   </div>
-                  <div className="form-group">
+                  <div>
                     <label htmlFor="last-name" className="text-info">Last Name:</label><br />
                     <input
                       id="last-name"
@@ -90,7 +87,7 @@ class SignUp extends React.Component {
                       onChange={this.changeHandler}
                       required />
                   </div>
-                  <div className="form-group">
+                  <div>
                     <label htmlFor="email" className="text-info">Email:</label><br />
                     <input
                       id="email"
@@ -101,7 +98,7 @@ class SignUp extends React.Component {
                       onChange={this.changeHandler}
                       required />
                   </div>
-                  <div className="form-group">
+                  <div>
                     <label htmlFor="password" className="text-info">Password:</label><br />
                     <input
                       id="password"
@@ -115,7 +112,7 @@ class SignUp extends React.Component {
                   <div className="d-flex justify-content-between align-items-end my-2 text-warning">
                     {this.state.requestError && <p>{this.state.requestError}</p>}
                   </div>
-                  <div className="form-group my-2">
+                  <div className="my-2">
                     <input type="submit" value="Register" className="btn float-right login_btn transonclick" />
                   </div>
                 </Form>

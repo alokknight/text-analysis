@@ -1,65 +1,55 @@
 
 import "./App.css";
 import "./indexwhisky.css";
-import Whisky from "./components/Whisky";
-import Navbar from "./components/Navbar";
-import FAQ from "./components/FAQ";
-import PNF from './components/404';
-import Help from './components/Help';
-import About from "./components/About";
-import CV from "./components/CV";
-import Resume from "./components/Resume";
-import Apartment from './components/Apartment';
-import Gallary from './components/Gallary';
-import Footer from "./components/Footer";
-import Carprice from "./components/Carprice";
-import TextAnalysis from "./components/TextAnalysis";
+import Whisky           from "./components/Whisky"          ;
+import Navbar           from "./components/Navbar"          ;
+import FAQ              from "./components/FAQ"             ;
+import PNF              from "./components/404"             ;
+import Help             from "./components/Help"            ;
+import About            from "./components/About"           ;
+import CV               from "./components/CV"              ;
+import Resume           from "./components/Resume"          ;
+import Apartment        from "./components/Apartment"       ;
+import Gallary          from "./components/Gallary"         ;
+import Footer           from "./components/Footer"          ;
+import Carprice         from "./components/Carprice"        ;
+import TextAnalysis     from "./components/TextAnalysis"    ;
 import SemanticAnalysis from "./components/SemanticAnalysis";
-import Skill from './components/Skill';
-// import {Routes,Router, Route } from 'react-router-dom';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
+import Skill            from "./components/Skill"           ;
+import SignIn from './components/SignIn';
+import SignOut from './components/SignOut';
+import SignUp from './components/SignUp';
+import {Routes,Router, Route } from 'react-router-dom';
+// import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 // import {Link, HashRouter } from 'react-router-dom';
 function App() {
   return (
       <div>
         <Navbar/>
 
-          {/* <Routes>
-            <Route exact path="/textanalysis" element = {<TextAnalysis/>} />
-            <Route exact path="/whisky"       element = {<Whisky/>} />
-            <Route exact path="/carprice"     element = {<Carprice />} />
-            <Route exact path="/semanticanalysis" element = {<SemanticAnalysis/>} />
-            <Route exact path="/resume"       element = {<Resume/>}/>/
-            <Route exact path="/portfolio"    element = {<Portfolio />} />
-            <Route exact path="/apartment"    element = {<Apartment />} />
-            <Route exact path="/skill"        element = {<Skill />} />
-            <Route exact path="/gallary"      element = {<Gallary />}/>
-          </Routes> */}
+          <Routes>
+            <Route exact path="/semanticanalysis" element = {<SemanticAnalysis/>}   > </Route>
+            <Route exact path="/textanalysis"     element = {<TextAnalysis/>}       > </Route>
+            <Route exact path="/help"             element = {<Help/>}               > </Route>
+            <Route exact path="/whisky"           element = {<Whisky/>}             > </Route>
+            <Route exact path="/About"            element = {<About/>}              > </Route>
+            <Route exact path="/carprice"         element = {<Carprice/>}           > </Route>
+            <Route exact path="/resume"           element = {<Resume/>}             > </Route>
+            <Route exact path="/cv"               element = {<CV/>}                 > </Route>
+            <Route exact path="/apartment"        element = {<Apartment/>}          > </Route>
+            <Route exact path="/gallary"          element = {<Gallary/>}            > </Route>
+            <Route exact path="/FAQ"              element = {<FAQ/>  }              > </Route>
+            <Route exact path="*"                 element = {<PNF/>}                > </Route>
+            <Route exact path="/skill"            element = {<Skill />}             > </Route>
+            <Route exact path="/gallary"          element = {<Gallary />}           > </Route>
+            <Route exact path="/signin"           element = {<SignIn />}            > </Route>
+            <Route exact path='/signup'           element = {<SignUp />}            > </Route>
+            <Route exact path='/signout'          element = {<SignOut/>}            > </Route>
+          </Routes>
 
-            {/* <Route exact path="/signin" element = {<SignIn />} />
-            <Route exact path='/signup' element = {<SignUp />} />
-            <Route exact path='/signout' element = {<SignOut/>} /> */}
-            {/* <Route path='*' element = {<PNF/> }/> */}
-{/* <Router> */}
-          <Switch>
-            <Route path="/semanticanalysis"exact><SemanticAnalysis/></Route>
-            <Route path="/textanalysis" exact><TextAnalysis/></Route>
-            <Route path="/help"         exact><Help/>        </Route>
-            <Route path="/whisky"       exact><Whisky/>      </Route>
-            <Route path="/About"        exact><About/>       </Route>
-            <Route path="/carprice"     exact><Carprice />   </Route>
-            <Route path="/resume"       exact><Resume/>      </Route>
-            <Route path="/cv"           exact><CV />         </Route>
-            <Route path="/apartment"    exact><Apartment />  </Route>
-            <Route path="/skill"        exact><Skill />      </Route>
-            <Route path="/gallary"      exact><Gallary />    </Route>
-            <Route path="/FAQ"          exact><FAQ />        </Route>
-            <Route path="*"             exact><PNF/>         </Route>
-        </Switch>
-{/* </Router> */}
+        {/* <a className="text-center" target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a> */}
 
         <Footer/>
-      <a className="text-center" target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a>
     </div>
   );
 }
