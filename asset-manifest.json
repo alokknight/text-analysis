@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/textanalysis/static/css/main.5494635e.css",
-    "main.js": "/textanalysis/static/js/main.782347ea.js",
-    "static/js/787.34646431.chunk.js": "/textanalysis/static/js/787.34646431.chunk.js",
+    "main.css": "/textanalysis/static/css/main.83b99f43.css",
+    "main.js": "/textanalysis/static/js/main.0cf7835b.js",
+    "static/js/787.07133056.chunk.js": "/textanalysis/static/js/787.07133056.chunk.js",
     "static/media/bg1.jpg": "/textanalysis/static/media/bg1.78f23d7d07c1998dce63.jpg",
     "static/media/form.jpg": "/textanalysis/static/media/form.bb76958206c2f4192b3a.jpg",
     "static/media/livingroom.jpg": "/textanalysis/static/media/livingroom.e3d97f3b6ed41221511a.jpg",
@@ -10,7 +10,6 @@
     "static/media/kitchen1.jpg": "/textanalysis/static/media/kitchen1.36d8f9b8bdb473bb6e44.jpg",
     "static/media/Eradour_Distillery.jpg": "/textanalysis/static/media/Eradour_Distillery.130094e3cc2112eb7489.jpg",
     "static/media/Glenmorangie_Distillery.jpg": "/textanalysis/static/media/Glenmorangie_Distillery.f4df04a473d9dd3957d8.jpg",
-    "static/media/alok.jpg": "/textanalysis/static/media/alok.3edc831e5fc10cb6322d.jpg",
     "static/media/Strathisla.gif": "/textanalysis/static/media/Strathisla.18dd2aad104debb7868d.gif",
     "static/media/alok1.jpg": "/textanalysis/static/media/alok1.6ceadde28330fbb2b044.jpg",
     "static/media/alokknight_logo_white.png": "/textanalysis/static/media/alokknight_logo_white.17efdb661f56f77a29ce.png",
@@ -18,12 +17,12 @@
     "static/media/eandj.jpg": "/textanalysis/static/media/eandj.23b0dbfe0e4ae75cc915.jpg",
     "static/media/treasurywines.png": "/textanalysis/static/media/treasurywines.f59eb5fdd6ccb49b908e.png",
     "index.html": "/textanalysis/index.html",
-    "main.5494635e.css.map": "/textanalysis/static/css/main.5494635e.css.map",
-    "main.782347ea.js.map": "/textanalysis/static/js/main.782347ea.js.map",
-    "787.34646431.chunk.js.map": "/textanalysis/static/js/787.34646431.chunk.js.map"
+    "main.83b99f43.css.map": "/textanalysis/static/css/main.83b99f43.css.map",
+    "main.0cf7835b.js.map": "/textanalysis/static/js/main.0cf7835b.js.map",
+    "787.07133056.chunk.js.map": "/textanalysis/static/js/787.07133056.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5494635e.css",
-    "static/js/main.782347ea.js"
+    "static/css/main.83b99f43.css",
+    "static/js/main.0cf7835b.js"
   ]
 }
