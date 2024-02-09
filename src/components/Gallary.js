@@ -57,34 +57,6 @@ export default function gallary() {
                     </div>
                 </div>
             </div>
-{/*
-            <div styel={{ "height": "200px" }} class="horizontal-scroll-wrapper squares">
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-                <div>
-                    <img src={require("./Images/Eradour_Distillery.jpg")} alt="" />
-                </div>
-            </div> */}
-
         </>
 
     )

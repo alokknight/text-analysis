@@ -7,8 +7,6 @@ import FAQ              from "./components/FAQ"             ;
 import PNF              from "./components/404"             ;
 import Help             from "./components/Help"            ;
 import About            from "./components/About"           ;
-import CV               from "./components/CV"              ;
-import Resume           from "./components/Resume"          ;
 import Apartment        from "./components/Apartment"       ;
 import Gallary          from "./components/Gallary"         ;
 import Footer           from "./components/Footer"          ;
@@ -34,8 +32,6 @@ function App() {
             <Route exact path="/whisky"           element = {<Whisky/>}             > </Route>
             <Route exact path="/About"            element = {<About/>}              > </Route>
             <Route exact path="/carprice"         element = {<Carprice/>}           > </Route>
-            <Route exact path="/resume"           element = {<Resume/>}             > </Route>
-            <Route exact path="/cv"               element = {<CV/>}                 > </Route>
             <Route exact path="/apartment"        element = {<Apartment/>}          > </Route>
             <Route exact path="/gallary"          element = {<Gallary/>}            > </Route>
             <Route exact path="/FAQ"              element = {<FAQ/>  }              > </Route>
@@ -46,9 +42,6 @@ function App() {
             <Route exact path='/signup'           element = {<SignUp />}            > </Route>
             <Route exact path='/signout'          element = {<SignOut/>}            > </Route>
           </Routes>
-
-        {/* <a className="text-center" target="_blank" href="https://alokknight.herokuapp.com/">visit alokknight's text analysis.</a> */}
-
         <Footer/>
     </div>
   );

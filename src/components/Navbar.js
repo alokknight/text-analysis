@@ -60,12 +60,6 @@ render() {
                                 <a       className="nav-link active" aria-current="page" href="https://www.alokknight.com/portfolio">Portfolio</a>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/CV">CV</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link active" aria-current="page" to="/resume">Resume</NavLink>
-                            </li>
-                            <li className="nav-item">
                                 <NavLink className="nav-link active" aria-current="page" to="/apartment">Apartment</NavLink>
                             </li>
                             <li className="nav-item">
